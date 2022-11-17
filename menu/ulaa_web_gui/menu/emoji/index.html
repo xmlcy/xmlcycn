@@ -24,8 +24,94 @@
 					<!-- <p>菜单</p> -->
 					<pre id="log">连接状态</pre>
 					<div class="row gtr-150">
-						<div class="col-4 col-12-medium">
-							<!-- <span class="image fit"><img src="images/study.jpg" alt="" /></span> -->
+						<div class="col-4 col-12-xsmall">
+							<ul class="actions special">
+								<input type="button" value="初始化" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="单纯摇头（否定）" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="单纯摇头（否定）" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="单次点头（肯定）" onclick="getVal(this.value)">
+							</ul>
+						</div>
+						<div class="col-4 col-12-xsmall">
+							<ul class="actions special">
+								<input type="button" value="皱眉摇头（强烈否定）" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="皱眉瞪眼（生气）" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="挑眉大眼（惊奇）" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="挑眉大眼张嘴（惊吓）" onclick="getVal(this.value)">
+							</ul>
+						</div>
+						<div class="col-4 col-12-xsmall">
+							<ul class="actions special">
+								<input type="button" value="摇头皱眉（困惑）" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="东张希望" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="思考反应（短时）" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="挤眉弄眼（调戏）" onclick="getVal(this.value)">
+							</ul>
+						</div>
+						<div class="col-4 col-12-xsmall">
+							<ul class="actions special">
+								<input type="button" value="莞尔一笑" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="综合动作" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="收到" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="说话短" onclick="getVal(this.value)">
+							</ul>
+						</div>
+						<div class="col-4 col-12-xsmall">
+							<ul class="actions special">
+								<input type="button" value="说话长" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="微表情一" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="微表情二" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="微表情三" onclick="getVal(this.value)">
+							</ul>
+						</div>
+						<div class="col-4 col-12-xsmall">
+							<ul class="actions special">
+								<input type="button" value="微表情四" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="wait_flag" onclick="getVal(this.value)">
+							</ul>
+							<ul class="actions special">
+								<input type="button" value="test" onclick="getVal(this.value)">
+							</ul>
+							<!-- <ul class="actions special">
+								<input type="button" value="微表情三" onclick="getVal(this.value)">
+							</ul> -->
+							<ul class="actions special">
+								<li><a href="../../index.html" class="button">返回首页</a></li>
+							</ul>
+						</div>
+						<!-- <div class="col-4 col-12-xsmall">
 							<h3>表情菜单</h3>
 							<ul class="actions special">
 								<input type="button" value="初始化" onclick="getVal(this.value)">
@@ -34,14 +120,14 @@
 								<input type="button" value="单次点头（肯定）" onclick="getVal(this.value)">
 							</ul>
 						</div>
-						<div class="col-4 col-12-medium">
+						<div class="col-4 col-12-xsmall">
 							<ul class="actions special">
 								<input type="button" value="皱眉摇头（强烈否定）" onclick="getVal(this.value)">
 								<input type="button" value="皱眉瞪眼（生气）" onclick="getVal(this.value)">
 								<input type="button" value="挑眉大眼（惊奇）" onclick="getVal(this.value)">
 							</ul>
 						</div>
-						<div class="col-4 col-12-medium">
+						<div class="col-4 col-12-xsmall">
 							<ul class="actions special">
 								<input type="button" value="挑眉大眼张嘴（惊吓）" onclick="getVal(this.value)">
 								<input type="button" value="摇头皱眉（困惑）" onclick="getVal(this.value)">
@@ -49,7 +135,7 @@
 								<input type="button" value="思考反应（短时）" onclick="getVal(this.value)">
 							</ul>
 						</div>
-						<div class="col-4 col-12-medium">
+						<div class="col-4 col-12-xsmall">
 							<ul class="actions special">
 								<input type="button" value="挤眉弄眼（调戏）" onclick="getVal(this.value)">
 								<input type="button" value="莞尔一笑" onclick="getVal(this.value)">
@@ -57,7 +143,7 @@
 								<input type="button" value="收到" onclick="getVal(this.value)">
 							</ul>
 						</div>
-						<div class="col-4 col-12-medium">
+						<div class="col-4 col-12-xsmall">
 							<ul class="actions special">
 								<input type="button" value="说话短" onclick="getVal(this.value)">
 								<input type="button" value="说话长" onclick="getVal(this.value)">
@@ -65,21 +151,20 @@
 								<input type="button" value="微表情二" onclick="getVal(this.value)">
 							</ul>
 						</div>
-						<div class="col-4 col-12-medium">
+						<div class="col-4 col-12-xsmall">
 							<ul class="actions special">
 								<input type="button" value="微表情三" onclick="getVal(this.value)">
 								<input type="button" value="微表情四" onclick="getVal(this.value)">
 								<input type="button" value="wait_flag" onclick="getVal(this.value)">
 								<input type="button" value="test" onclick="getVal(this.value)">
 							</ul>
-						</div>
-						<div class="col-4 col-12-medium">
-							<!-- <span class="image fit"><img src="images/notes.jpg" alt="" /></span> -->
+						</div> -->
+						<!-- <div class="col-4 col-12-xsmall">
 							<h3>返回首页</h3>
 							<ul class="actions special">
-								<li><a href="../../index.html" class="button">Chose</a></li>
+								<li><a href="../../index.html" class="button">返回首页</a></li>
 							</ul>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</section>
